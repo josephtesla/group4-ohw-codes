@@ -149,6 +149,17 @@ tbody{
   position: absolute;
 }
 
+.list-group-item-action {
+  color: #164782 !important;
+}
+
+.create-team {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin-right: 8%;
+}
+
 @media (max-width: 768px) {
   #menu-toggle {
     display: block;
