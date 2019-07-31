@@ -20,18 +20,17 @@
 <body>
 
   <div class="d-flex" id="wrapper">
-
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading"><img width="240px" class="header-image" src="img/logo-2.jpg" alt="logo"></div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-table"></i> Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-bell"></i> Notifications</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-plus"></i> Create Project</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-eye"></i> Existing Projects</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-clipboard"></i> View Leaderboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-gear"></i> Manage teams</a>
-      </div>
+    <div class="border-right bg-custom-1" id="sidebar-wrapper">
+        <div class="sidebar-heading"><img width="240px" class="header-image" src="img/logo-2.jpg" alt="logo"></div>
+        <div class="list-group list-group-flush">
+            <a href="dashboard.html" class="list-group-item list-group-item-action bg-custom-1"><i class="fa fa-table"></i> Dashboard</a>
+            <a href="notifications.html" class="list-group-item list-group-item-action bg-custom-1"><i class="fa fa-bell"></i> Notifications</a>
+            <a href="createproject.html" class="list-group-item list-group-item-action bg-custom-1"><i class="fa fa-plus"></i> Create Project</a>
+            <a href="viewprojects.html" class="list-group-item list-group-item-action bg-custom-1"><i class="fa fa-eye"></i> Existing Projects</a>
+            <a href="leaderboard.html" class="list-group-item list-group-item-action bg-custom-1"><i class="fa fa-clipboard"></i> View Leaderboard</a>
+            <a href="manageteams.html" class="list-group-item list-group-item-action bg-custom-1"><i class="fa fa-gear"></i> Manage teams</a>
+          </div>
       <div class="sidebar-logout">
         <a href="" class="style-button-1">Log Out</a>
       </div>
@@ -39,27 +38,24 @@
 
     <div id="page-content-wrapper">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-          <div class="form-group col-md-8">
-              <button class="btn btn-primary" id="menu-toggle">menu</button>
-              <input type="search" class="form-control searchbox" placeholder="Search projects">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <button class="btn" id="menu-toggle">menu</button>
+            <div class="form-group search-place">
+                <input type="search" class="form-control searchbox" placeholder="Search projects">
+              </div>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class="fa fa-user-circle"></i> Mike Adeleke<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+              </ul>
             </div>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fa fa-user-circle"></i> Mike Adeleke<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  
+        </nav>
 
       <div class="container container-fluid">
         <h2 class="mt-4 page-title">CREATE NEW TEAM</h2>
