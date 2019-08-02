@@ -21,6 +21,7 @@ td {
   -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
   transition: margin .25s ease-out;
+ 
 }
 
 .bg-custom-1 {
@@ -151,11 +152,100 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.border-bottom {
   border: none;
 }
 
+
+.dash-page-head {
+  display: flex;
+  
+}
+
+.dash-btn {
+  
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.team-list-item {
+  position: relative;
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.btn {
+  text-transform: none !important;
+}
+
+.view-btn {
+  position: absolute;
+  right: 0;
+  padding: 4px;
+}
+
+.underlined {
+  border-bottom: 1px solid grey;
+}
+
+.status-bar {
+  margin-bottom: 10px;
+}
+
+.dash-team-span {
+  padding: 20px 20px;
+  border-bottom: 4px solid #164782;
+  margin: 0;
+  max-width: 30%;
+  font-weight: bold;
+}
+
 .sidebar-logout {
   margin-top: 60%;
   text-align: center;
-
 }
+
+.task-label {
+  margin-top: 10px;
+  border: none !important;
+  color: #164782 !important;
+}
+
+.list-group-item {
+  border-bottom: 1px solid gray !important ;
+}
+
+.projects-list {
+  margin-top: 5px;
+}
+
+.base-color{
+  color: #164782 !important;
+}
+
+.project-con {
+}
+
+.project-wrap {
+  min-height: 50px;
+  border-left: 3px solid #164782;
+}
+
+.p-body {
+  margin-top: 9px;
+}
+
+.extra-small {
+  font-size: 12px;
+}
+
+.issue-list {
+  margin-top: 7px;
+}
+
+.issue-1 {
+  padding: 0.5rem 1rem;
+  padding-bottom: 0.5px solid rgb(177, 174, 174) !important;
+}
+
 
 .style-button-1:hover {
   border: 2px solid #164782;
